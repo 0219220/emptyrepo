@@ -1,0 +1,7 @@
+{
+  "name": "AlexHP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
