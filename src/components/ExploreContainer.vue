@@ -5,7 +5,11 @@
   </div>
 </template>
 
+<<<<<<< HEAD
 <script lang="ts">
+=======
+<script>
+>>>>>>> master
 import { defineComponent } from 'vue';
 
 export default defineComponent({

@@ -17,7 +17,11 @@
   </ion-page>
 </template>
 
+<<<<<<< HEAD
 <script lang="ts">
+=======
+<script>
+>>>>>>> master
 import { defineComponent } from 'vue';
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
 import ExploreContainer from '@/components/ExploreContainer.vue';

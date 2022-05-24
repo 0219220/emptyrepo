@@ -4,15 +4,47 @@
   </ion-app>
 </template>
 
+<<<<<<< HEAD
 <script lang="ts">
 import { IonApp, IonRouterOutlet } from '@ionic/vue';
 import { defineComponent } from 'vue';
+=======
+<script>
+import { IonApp, IonRouterOutlet } from '@ionic/vue';
+import { defineComponent } from 'vue';
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+>>>>>>> master
 
 export default defineComponent({
   name: 'App',
   components: {
     IonApp,
     IonRouterOutlet
+<<<<<<< HEAD
   }
+=======
+  },
+
+created() {
+const auth = getAuth();
+signInWithEmailAndPassword(auth, "holaprofe@gmail.com", "holaprofe")
+.then((userCredential) => {
+// Signed in
+const user = userCredential.user;
+if(user== null)
+{
+console.log("no autenticado") }
+else
+{
+console.log("usuario autenticado", user);
+}
+})
+.catch((error) => {
+const errorCode = error.code;
+const errorMessage = error.message;
+console.log(errorCode, errorMessage);
+});
+},
+>>>>>>> master
 });
 </script>

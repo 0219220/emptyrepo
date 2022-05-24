@@ -18,22 +18,36 @@
     "@ionic/vue": "^6.0.0",
     "@ionic/vue-router": "^6.0.0",
     "core-js": "^3.6.5",
+<<<<<<< HEAD
+=======
+    "express": "^4.18.1",
+    "firebase": "^9.8.1",
+    "firebase-tools": "^11.0.0",
+>>>>>>> master
     "vue": "^3.2.21",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@capacitor/cli": "3.5.0",
+<<<<<<< HEAD
     "@types/jest": "^27.0.2",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0",
+=======
+>>>>>>> master
     "@vue/cli-plugin-babel": "~5.0.0-rc.1",
     "@vue/cli-plugin-e2e-cypress": "~5.0.0-rc.1",
     "@vue/cli-plugin-eslint": "~5.0.0-rc.1",
     "@vue/cli-plugin-router": "~5.0.0-rc.1",
+<<<<<<< HEAD
     "@vue/cli-plugin-typescript": "~5.0.0-rc.1",
     "@vue/cli-plugin-unit-jest": "~5.0.0-rc.1",
     "@vue/cli-service": "~5.0.0-rc.1",
     "@vue/eslint-config-typescript": "^9.1.0",
+=======
+    "@vue/cli-plugin-unit-jest": "~5.0.0-rc.1",
+    "@vue/cli-service": "~5.0.0-rc.1",
+>>>>>>> master
     "@vue/test-utils": "^2.0.0-rc.16",
     "@vue/vue3-jest": "^27.0.0-alpha.3",
     "babel-jest": "^27.3.1",
@@ -41,8 +55,12 @@
     "eslint": "^8.4.1",
     "eslint-plugin-vue": "^8.2.0",
     "jest": "^27.3.1",
+<<<<<<< HEAD
     "ts-jest": "^27.0.7",
     "typescript": "^4.3.5"
+=======
+    "ts-jest": "^27.0.7"
+>>>>>>> master
   },
   "description": "An Ionic project"
 }
